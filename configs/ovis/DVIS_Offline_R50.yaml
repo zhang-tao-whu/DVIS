@@ -1,0 +1,31 @@
+_BASE_: DVIS_Online_R50.yaml
+MODEL:
+  META_ARCHITECTURE: "DVIS_offline"
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  STEPS: (14000,)
+  MAX_ITER: 20000
+
+INPUT:
+  MIN_SIZE_TRAIN: (240, 360, 480)
+  MIN_SIZE_TEST: 360
+  SAMPLING_FRAME_NUM: 21
+  SAMPLING_FRAME_RANGE: 10
+  REVERSE_AGU: True
+
+  CROP:
+    ENABLED: True
+    TYPE: "absolute_range"
+    SIZE: (384, 600)
+  # For pseudo videos
+  PSEUDO:
+    AUGMENTATIONS: ['rotation']
+    MIN_SIZE_TRAIN: (240, 360, 480)
+    MAX_SIZE_TRAIN: 768
+    CROP:
+      ENABLED: True
+      TYPE: "absolute_range"
+      SIZE: (384, 600)
+
+OUTPUT_DIR: './output_DVIS_Offline_R50_OVIS'

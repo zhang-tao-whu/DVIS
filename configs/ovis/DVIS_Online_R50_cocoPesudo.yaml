@@ -1,0 +1,16 @@
+_BASE_: MinVIS_R50_cocoPesudo.yaml
+MODEL:
+  META_ARCHITECTURE: "DVIS_online"
+  MASK_FORMER:
+    TRANSFORMER_DECODER_NAME: "VideoMultiScaleMaskedTransformerDecoder_dvis"
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  STEPS: (14000,)
+  MAX_ITER: 20000
+
+INPUT:
+  SAMPLING_FRAME_NUM: 5
+  SAMPLING_FRAME_RANGE: 2
+
+OUTPUT_DIR: './output_DVIS_Online_R50_cocoPesudo_OVIS'

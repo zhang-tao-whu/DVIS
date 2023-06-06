@@ -1,0 +1,17 @@
+_BASE_: MinVIS_R50.yaml
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  STEPS: (28000,)
+  MAX_ITER: 40000
+
+DATASETS:
+  DATASET_RATIO: [1.0, 1.0]
+  DATASET_NEED_MAP: [True, False]
+  DATASET_TYPE: ['image_instance', 'video_instance', ]
+  DATASET_TYPE_TEST: ['video_instance', ]
+  # The categories of all datasets will be mapped to the categories of the last dataset
+  TRAIN: ("coco2ovis_train", "ovis_train")
+  TEST: ("ovis_val",)
+
+OUTPUT_DIR: './output_MinVIS_R50_cocoPesudo_OVIS'

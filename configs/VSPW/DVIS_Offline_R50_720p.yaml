@@ -1,0 +1,27 @@
+_BASE_: DVIS_Online_R50_720p.yaml
+
+MODEL:
+  META_ARCHITECTURE: "DVIS_offline"
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  STEPS: (14000,)
+  MAX_ITER: 20000
+
+INPUT:
+  SAMPLING_FRAME_NUM: 21
+  SAMPLING_FRAME_RANGE: 10
+  REVERSE_AGU: True
+
+  CROP:
+    ENABLED: True
+    TYPE: "absolute"
+    SIZE: (608, 608)
+  # For pseudo videos
+  PSEUDO:
+    CROP:
+      ENABLED: True
+      TYPE: "absolute"
+      SIZE: (608, 608)
+
+OUTPUT_DIR: './output_DVIS_Offline_R50_720p_VSPW'
