@@ -1,9 +1,15 @@
 <div align="center">
 
-# [DVIS: Decoupled Video Instance Segmentation Framework]()
+# [DVIS: Decoupled Video Instance Segmentation Framework](https://arxiv.org/abs/2306.03413)
 [Tao Zhang](https://scholar.google.com/citations?user=3xu4a5oAAAAJ&hl=zh-CN), XingYe Tian, [Yu Wu](https://scholar.google.com/citations?hl=zh-CN&user=23SZHUwAAAAJ), [ShunPing Ji](https://scholar.google.com/citations?user=FjoRmF4AAAAJ&hl=zh-CN), Xuebo Wang, Yuan Zhang, Pengfei Wan
 <img src="https://github.com/zhang-tao-whu/paper_images/blob/master/dvis/pipeline.png" width="800"/>
 </div>
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvis-decoupled-video-instance-segmentation/video-instance-segmentation-on-ovis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-ovis-1?p=dvis-decoupled-video-instance-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvis-decoupled-video-instance-segmentation/video-panoptic-segmentation-on-vipseg)](https://paperswithcode.com/sota/video-panoptic-segmentation-on-vipseg?p=dvis-decoupled-video-instance-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvis-decoupled-video-instance-segmentation/video-instance-segmentation-on-youtube-vis-3)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-3?p=dvis-decoupled-video-instance-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvis-decoupled-video-instance-segmentation/video-instance-segmentation-on-youtube-vis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-1?p=dvis-decoupled-video-instance-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvis-decoupled-video-instance-segmentation/video-instance-segmentation-on-youtube-vis-2)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-2?p=dvis-decoupled-video-instance-segmentation)
 
 ## News
 - DVIS achieved **1st place** in the VPS Track of the PVUW challenge at CVPR 2023. `2023.5.25`
@@ -32,6 +38,17 @@ See [Getting Started with DVIS](GETTING_STARTED.md).
 ## Model Zoo
 
 Trained models are available for download in the [DVIS Model Zoo](MODEL_ZOO.md).
+
+## <a name="CitingDVIS"></a>Citing DVIS
+
+```BibTeX
+@article{DVIS,
+  title={DVIS: Decoupled Video Instance Segmentation Framework},
+  author={Zhang, Tao and Tian, Xingye and Wu, Yu and Ji, Shunping and Wang, Xuebo and Zhang, Yuan and Wan, Pengfei},
+  journal={arXiv preprint arXiv:2306.03413},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 
