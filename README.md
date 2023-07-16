@@ -14,6 +14,7 @@
 
 ## News
 - DVIS achieved **1st place** in the VPS Track of the PVUW challenge at CVPR 2023. `2023.5.25`
+- DVIS has been accepted by ICCV 2023. `2023.7.15`
 
 ## Features
 - DVIS is a universal video segmentation framework that supports VIS, VPS and VSS.
@@ -47,6 +48,13 @@ Trained models are available for download in the [DVIS Model Zoo](MODEL_ZOO.md).
   title={DVIS: Decoupled Video Instance Segmentation Framework},
   author={Zhang, Tao and Tian, Xingye and Wu, Yu and Ji, Shunping and Wang, Xuebo and Zhang, Yuan and Wan, Pengfei},
   journal={arXiv preprint arXiv:2306.03413},
+  year={2023}
+}
+
+@article{zhang20231st,
+  title={1st Place Solution for PVUW Challenge 2023: Video Panoptic Segmentation},
+  author={Zhang, Tao and Tian, Xingye and Wei, Haoran and Wu, Yu and Ji, Shunping and Wang, Xuebo and Zhang, Yuan and Wan, Pengfei},
+  journal={arXiv preprint arXiv:2306.04091},
   year={2023}
 }
 ```
