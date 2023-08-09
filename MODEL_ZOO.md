@@ -259,6 +259,17 @@ The "Config" column contains a link to the config file. Running `train_net_video
 <td align="center"><a href="configs/VIPSeg/MinVIS_R50_720p.yaml">yaml</a></td>
 <td align="center"><a href="https://pan.baidu.com/s/1JJRr06zXBTX5hyDdKEQzow?pwd=dvis">baidupan</a></td>
 </tr>
+<!-- ROW: MinVIS -->
+ <tr><td align="center">MinVis</td>
+<td align="center">SwinL(IN21k)</td>
+<td align="center">200</td>
+<td align="center">720P</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="configs/VIPSeg/swin/MinVIS_SwinL.yaml">yaml</a></td>
+<td align="center"><a href="https://pan.baidu.com/s/1JJRr06zXBTX5hyDdKEQzow?pwd=dvis">baidupan</a></td>
+</tr> 
 <!-- ROW: SwinL Online -->
  <tr><td align="center">DVIS_online</td>
 <td align="center">SwinL(IN21k)</td>
