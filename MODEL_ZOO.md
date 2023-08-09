@@ -249,7 +249,7 @@ The "Config" column contains a link to the config file. Running `train_net_video
 <th valign="bottom">Download</th>
 <!-- TABLE BODY -->
  <!-- ROW: MinVIS -->
- <tr><td align="center">DVIS_online</td>
+ <tr><td align="center"MinVis</td>
 <td align="center">R50</td>
 <td align="center">100</td>
 <td align="center">720P</td>
