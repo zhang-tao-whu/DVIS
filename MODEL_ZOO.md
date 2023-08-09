@@ -268,7 +268,7 @@ The "Config" column contains a link to the config file. Running `train_net_video
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center"><a href="configs/VIPSeg/swin/MinVIS_SwinL.yaml">yaml</a></td>
-<td align="center"><a href="https://pan.baidu.com/s/1JJRr06zXBTX5hyDdKEQzow?pwd=dvis">baidupan</a></td>
+<td align="center"><a href="https://pan.baidu.com/s/1jqHYzl-Eb-n4H0qAsVhMBg?pwd=dvis">baidupan</a></td>
 </tr> 
 <!-- ROW: SwinL Online -->
  <tr><td align="center">DVIS_online</td>
