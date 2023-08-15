@@ -15,6 +15,7 @@
 ## News
 - DVIS achieved **1st place** in the VPS Track of the PVUW challenge at CVPR 2023. `2023.5.25`
 - DVIS has been accepted by ICCV 2023. `2023.7.15`
+- DVIS achieved **1st place** in the VIS Track of the 5th LSVOS challenge at ICCV 2023. `2023.8.15`
 
 ## Features
 - DVIS is a universal video segmentation framework that supports VIS, VPS and VSS.
