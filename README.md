@@ -52,7 +52,14 @@ Trained models are available for download in the [DVIS Model Zoo](MODEL_ZOO.md).
   year={2023}
 }
 
-@article{zhang20231st,
+@article{zhang2023vis1st,
+  title={1st Place Solution for the 5th LSVOS Challenge: Video Instance Segmentation},
+  author={Zhang, Tao and Tian, Xingye and Zhou, Yikang and Wu, Yu and Ji, Shunping and Yan, Cilin and Wang, Xuebo and Tao, Xin and Zhang, Yuan and Wan, Pengfei},
+  journal={arXiv preprint arXiv:2308.14392},
+  year={2023}
+}
+
+@article{zhang2023vps1st,
   title={1st Place Solution for PVUW Challenge 2023: Video Panoptic Segmentation},
   author={Zhang, Tao and Tian, Xingye and Wei, Haoran and Wu, Yu and Ji, Shunping and Wang, Xuebo and Zhang, Yuan and Wan, Pengfei},
   journal={arXiv preprint arXiv:2306.04091},
