@@ -929,7 +929,7 @@ class DVIS_online(MinVIS):
         mask_cls = F.softmax(pred_cls, dim=-1)[..., :-1]
         if aux_pred_cls is not None:
             aux_pred_cls = F.softmax(aux_pred_cls, dim=-1)[:, :-1]
-            mask_cls[..., :-1] = torch.maximum(mask_cls[..., :-1], aux_pred_cls.to(mask_cls))
+            mask_cls = torch.maximum(mask_cls, aux_pred_cls.to(mask_cls))
         mask_pred = pred_masks
         # interpolation to original image size
         cur_masks = F.interpolate(
