@@ -128,8 +128,9 @@ if __name__ == "__main__":
 			for path, _vis_output in zip(_frames_path, visualized_output):
 				out_filename = os.path.join(output_root, os.path.basename(path))
 				_vis_output.save(out_filename)
-			for id in predictions['pred_ids']:
-				instances.add(id)
+			if 'pred_ids' in predictions.keys():
+				for id in predictions['pred_ids']:
+					instances.add(id)
 			del visualized_output, vid_frames, _frames_path, predictions
 
 			vid_frames = []
