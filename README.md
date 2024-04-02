@@ -13,6 +13,7 @@
 </div>
 
 ## News
+- DVIS-DAQ achieves 57.1 AP on the OVIS dataset and also sets a new SOTA performance on YTVIS19/21 and VIPSeg. The code will be released in [DVIS-DAQ](https://github.com/zhang-tao-whu/DVIS_Plus). The paper is available at [DVIS-DAQ: Improving Video Segmentation via Dynamic Anchor Queries](https://arxiv.org/pdf/2404.00086.pdf) and the project page can be found in [project page](https://zhang-tao-whu.github.io/projects/DVIS_DAQ/).
 - The improved version of DVIS, DVIS++, is now available. Please refer to [DVIS++](https://github.com/zhang-tao-whu/DVIS_Plus) for more information. DVIS++ achieves 41.2 AP, 56.7 AP, and 52.0 AP, as well as 48.6 mIOU and 44.2 VPQ in OVIS, YTVIS19, YTVIS21, VSPW, and VIPSeg, respectively. Additionally, OV-DVIS++ supports open-vocabulary universal video segmentation.
 - DVIS achieved **1st place** in the VPS Track of the PVUW challenge at CVPR 2023. `2023.5.25`
 - DVIS has been accepted by ICCV 2023. `2023.7.15`
